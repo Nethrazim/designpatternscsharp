@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using DesignPatternsCSharp.AbstractFactory;
 using DesignPatternsCSharp.FactoryMethod;
+using DesignPatternsCSharp.Singleton;
 
 namespace DesignPatternsCSharp
 {
@@ -12,7 +13,7 @@ namespace DesignPatternsCSharp
     {
         FactorySample ex1 = new FactorySample();
         AbstractFactorySample ex2 = new AbstractFactorySample();
-
+        SingletonSample ex3 = new SingletonSample();
         static void Main(string[] args)
         {
             new Program().Run();
@@ -20,8 +21,9 @@ namespace DesignPatternsCSharp
 
         public void Run()
         {
-            ex1.Run();
-            ex2.Run();
+            //ex1.Run();
+            //ex2.Run();
+            ex3.Run();
             Console.ReadKey();
         }
     }
