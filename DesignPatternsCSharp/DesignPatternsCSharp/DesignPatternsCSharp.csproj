@@ -44,12 +44,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbstractFactoryMethod\AbstractFactory.cs" />
+    <Compile Include="Adapter\AdapterSample.cs" />
+    <Compile Include="Bridge\BridgeSample.cs" />
+    <Compile Include="Builder\BuilderSample.cs" />
+    <Compile Include="Composite\CompositeSample.cs" />
+    <Compile Include="Decorator\DecoratorSample.cs" />
+    <Compile Include="Facade\FacadeSample.cs" />
     <Compile Include="FactoryMethod\Namer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Prototype\PrototypeSample.cs" />
     <Compile Include="Singleton\SingletonSample.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include=".gitignore" />
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup />
