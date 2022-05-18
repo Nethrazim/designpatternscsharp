@@ -58,6 +58,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Prototype\PrototypeSample.cs" />
+    <Compile Include="Proxy\ProxySample.cs" />
     <Compile Include="Singleton\SingletonSample.cs" />
   </ItemGroup>
   <ItemGroup>

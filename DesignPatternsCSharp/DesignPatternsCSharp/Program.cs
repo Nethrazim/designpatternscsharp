@@ -15,6 +15,7 @@ using DesignPatternsCSharp.Facade;
 using DesignPatternsCSharp.Mediator;
 using DesignPatternsCSharp.Observer;
 using DesignPatternsCSharp.ChainOfResponsability;
+using DesignPatternsCSharp.Proxy;
 
 namespace DesignPatternsCSharp
 {
@@ -32,6 +33,7 @@ namespace DesignPatternsCSharp
         MediatorSample ex10 = new MediatorSample();
         ObserverSample ex11 = new ObserverSample();
         ChainOfResponsabilitySample ex12 = new ChainOfResponsabilitySample();
+        ProxySample ex13 = new ProxySample();
         static void Main(string[] args)
         {
             new Program().Run();
@@ -50,7 +52,8 @@ namespace DesignPatternsCSharp
             //ex9.Run();
             //ex10.Run();
             //ex11.Run();
-            ex12.Run();
+            //ex12.Run();
+            ex13.Run();
 
             Console.ReadKey();
         }
