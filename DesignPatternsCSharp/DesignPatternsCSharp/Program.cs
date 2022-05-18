@@ -13,6 +13,7 @@ using DesignPatternsCSharp.Composite;
 using DesignPatternsCSharp.Decorator;
 using DesignPatternsCSharp.Facade;
 using DesignPatternsCSharp.Mediator;
+using DesignPatternsCSharp.Observer;
 
 namespace DesignPatternsCSharp
 {
@@ -28,6 +29,7 @@ namespace DesignPatternsCSharp
         DecoratorSample ex8 = new DecoratorSample();
         FacadeSample ex9 = new FacadeSample();
         MediatorSample ex10 = new MediatorSample();
+        ObserverSample ex11 = new ObserverSample();
         static void Main(string[] args)
         {
             new Program().Run();
@@ -44,7 +46,8 @@ namespace DesignPatternsCSharp
             //ex7.Run();
             //ex8.Run();
             //ex9.Run();
-            ex10.Run();
+            //ex10.Run();
+            ex11.Run();
 
             Console.ReadKey();
         }
