@@ -51,7 +51,7 @@
     <Compile Include="Composite\CompositeSample.cs" />
     <Compile Include="Decorator\DecoratorSample.cs" />
     <Compile Include="Facade\FacadeSample.cs" />
-    <Compile Include="FactoryMethod\Namer.cs" />
+    <Compile Include="FactoryMethod\FactoryMethodSample.cs" />
     <Compile Include="Flyweight\FlyweightSample.cs" />
     <Compile Include="Mediator\MediatorSample.cs" />
     <Compile Include="Observer\ObserverSample.cs" />
