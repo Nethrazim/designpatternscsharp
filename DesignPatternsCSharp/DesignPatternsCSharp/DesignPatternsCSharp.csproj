@@ -47,6 +47,7 @@
     <Compile Include="Adapter\AdapterSample.cs" />
     <Compile Include="Bridge\BridgeSample.cs" />
     <Compile Include="Builder\BuilderSample.cs" />
+    <Compile Include="ChainOfResponsability\ChainOfResponsabilitySample.cs" />
     <Compile Include="Composite\CompositeSample.cs" />
     <Compile Include="Decorator\DecoratorSample.cs" />
     <Compile Include="Facade\FacadeSample.cs" />
