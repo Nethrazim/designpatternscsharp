@@ -48,12 +48,12 @@ namespace DesignPatternsCSharp
             //ex5.Run();
             //ex6.Run();
             //ex7.Run();
-            //ex8.Run();
+            ex8.Run();
             //ex9.Run();
             //ex10.Run();
             //ex11.Run();
             //ex12.Run();
-            ex13.Run();
+            //ex13.Run();
 
             Console.ReadKey();
         }
