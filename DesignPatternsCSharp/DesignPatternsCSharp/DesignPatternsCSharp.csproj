@@ -51,6 +51,8 @@
     <Compile Include="Decorator\DecoratorSample.cs" />
     <Compile Include="Facade\FacadeSample.cs" />
     <Compile Include="FactoryMethod\Namer.cs" />
+    <Compile Include="Flyweight\FlyweightSample.cs" />
+    <Compile Include="Mediator\MediatorSample.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Prototype\PrototypeSample.cs" />
